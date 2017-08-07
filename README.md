@@ -9,6 +9,11 @@ FeatureRankingTool is a python package which can help you ranking and analysis y
 3. Find misclassified data point (For classification problem only)
 4. Find correlation coefficience among features and label.
 
+## You are welcome to:
+
+1. Report bug for this project, and
+2. Add new function which we will frequently use when we train a model
+
 ## What dependencies you need to install
 
 
