@@ -42,7 +42,7 @@ iris = datasets.load_iris()
 # Get features and target 
 feature = iris.data
 target = np.array(iris.target)
-target = Y.reshape(len(target),1)
+target = target.reshape(len(target),1)
 
 # Merge features and target into a DataFrame
 data = np.concatenate((feature,target),axis=1)
